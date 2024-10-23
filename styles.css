@@ -1,0 +1,103 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", serif;
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom:solid 5px rgb(42,122,228);
+    border-image: linear-gradient(to right, rgb(228, 42, 212) 0%, rgb(42,122,228) 100%) 1;
+    padding: 20px;
+    font-size: 1.8em;
+    color: rgb(42,122,228);
+}
+
+.chamada{
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8324.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-attachment: scroll;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(to right, rgb(42,122,228) 0%, rgb(228, 42, 212) 100%) 1;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+p {
+    font-size: 20px;
+}
+img {
+    height: 200px;
+}
+.categoria-videos {
+    padding-bottom: 10px;
+    display: flex;
+    overflow-y: auto;
+    gap: 1%;
+}
+
+
+/* width */
+.categoria-videos::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.categoria-videos::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+/* Handle */
+.categoria-videos::-webkit-scrollbar-thumb {
+  background: rgb(26, 77, 139);
+  border-radius: 15px;
+  
+}
+
+/* Handle on hover */
+.categoria-videos::-webkit-scrollbar-thumb:hover {
+  background: rgb(42,122,228)
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.categoria-videos img {
+    overflow: hidden;
+    opacity: 0.5;
+    height:235px;
+    border-radius: 5px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px rgb(42,122,228);
+    box-shadow: 3px 3px #202020;
+
+}
+
+.categoria h2 {
+    color: rgb(42,122,228)
+}
+
+.bololo iframe{
+    border: solid 2px;
+    border-image: linear-gradient(to right, rgb(42,122,228) 0%, rgb(228, 42, 212) 100%) 1;    
+}
